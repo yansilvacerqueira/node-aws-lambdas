@@ -1,4 +1,5 @@
-export const listUsers = (event) => {
+// the function need be async
+export const listUsers = async (event) => {
   const response = JSON.stringify({
     statusCode: 200,
     users: [
